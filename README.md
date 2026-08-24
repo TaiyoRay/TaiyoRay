@@ -1,23 +1,19 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Nikhil Sharma — full-stack developer, web and Android" />
-</div>
-
-I build things I want to exist — encrypted vaults, private tools, whole platforms. Sometimes for an audience of one.
-
-The bigger credits: sole developer behind the complete digital stack of **[Shine Blue Hire Purchase](https://shinebluehpl.com)**, an RBI-registered NBFC — public web, internal platforms, and the Android apps its teams use daily. Freelance web & brand work on the side. BCA '27.
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-**Selected work**
-
-- **SentinelX** — offline-first Android vault with hardware-backed encryption. <sub>`Kotlin` `Jetpack Compose` `Room` `Android Keystore`</sub> <!-- add link if it goes public -->
-- **[shinebluehpl.com](https://shinebluehpl.com)** — corporate platform for an RBI-registered NBFC: six product lines, EMI calculator, full SEO build. <sub>`Next.js 15` `TypeScript` `shadcn/ui` `Vercel`</sub>
-- **Payroll & Attendance** — geofenced attendance, leave, LOP payroll, PDF payslips; Android field app + web admin, in production. <sub>`Kotlin` `Compose` `Next.js` `Firebase`</sub>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-**Elsewhere** — [GitHub](https://github.com/TaiyoRay) · [shinebluehpl.com](https://shinebluehpl.com) <!-- · [Upwork](YOUR_UPWORK_URL) · [email](mailto:YOUR_EMAIL) -->
-
-<div align="center">
-  <img src="./assets/seal.svg" width="100%" alt="Forged, not templated." />
+  <img src="./assets/banner.svg" width="100%" alt="Nikhil Sharma — Full-stack developer · Web & Android" />
+  <img src="./assets/intro.svg" width="100%" alt="Intro" />
+  <img src="./assets/h-1.svg" width="100%" alt="Selected work" />
+  <img src="./assets/card-1.svg" width="100%" alt="SentinelX — Offline-first Android vault with hardware-backed encryption. Built because I wanted it to exist." />
+  <a href="https://shinebluehpl.com"><img src="./assets/card-2.svg" width="100%" alt="shinebluehpl.com — Corporate platform for an RBI-registered NBFC — six product lines, EMI calculator, full SEO build." /></a>
+  <img src="./assets/card-3.svg" width="100%" alt="Payroll & Attendance — Geofenced attendance, leave, LOP payroll, PDF payslips — Android field app + web admin. In production." />
+  <img src="./assets/h-2.svg" width="100%" alt="The year, consumed" />
+  <img src="./assets/serpent.svg" width="100%" alt="Contribution calendar, consumed daily by the serpent." />
+  <img src="./assets/h-3.svg" width="100%" alt="Stack" />
+  <img src="./assets/stack.svg" width="100%" alt="Stack" />
+  <img src="./assets/h-4.svg" width="100%" alt="Elsewhere" />
+  <p>
+    <a href="https://github.com/TaiyoRay"><img src="./assets/chip-1.svg" height="52" alt="GitHub" /></a>&nbsp;
+    <a href="https://shinebluehpl.com"><img src="./assets/chip-2.svg" height="52" alt="shinebluehpl.com" /></a>&nbsp;
+    <a href="mailto:nikhilsharmaa733@gmail.com"><img src="./assets/chip-3.svg" height="52" alt="Email" /></a>&nbsp;
+  </p>
+  <img src="./assets/footer.svg" width="100%" alt="Footer" />
 </div>

@@ -1,0 +1,26 @@
+name: the forge
+on:
+  push:
+    paths: ["profile.yml", "forge/**"]
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  reforge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install fonttools pyyaml
+      - name: reforge everything
+        run: python3 forge/build.py
+      - name: commit what changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          git diff --cached --quiet || git commit -m "forge: rebuilt"
+          git push

@@ -1,0 +1,58 @@
+# ============================================================
+#  THE FORGE - edit this file, push, and the whole profile
+#  rebuilds itself. Every plate, the README, the serpent.
+# ============================================================
+
+github_user: TaiyoRay
+
+banner:
+  name: Nikhil Sharma
+  tagline: Full-stack developer · Web & Android
+
+intro:
+  lines:
+    - "**I build things I want to exist** — encrypted vaults, private"
+    - "tools, whole platforms. Sometimes for an **audience of one**."
+    - "**Sole developer** behind the full digital stack of Shine Blue Hire"
+    - "Purchase — an RBI-registered NBFC: web, platforms, Android."
+  eyebrow: "Also — freelance web & brand work  ·  BCA '27"
+
+work_title: Selected work
+serpent_title: The year, consumed
+
+cards:
+  - title: SentinelX
+    desc: "Offline-first Android vault with hardware-backed encryption. Built because I wanted it to exist."
+    tech: [Kotlin, Jetpack Compose, Room, Android Keystore]
+    # link: https://github.com/TaiyoRay/sentinelx   # uncomment when public
+  - title: shinebluehpl.com
+    desc: "Corporate platform for an RBI-registered NBFC — six product lines, EMI calculator, full SEO build."
+    tech: [Next.js 15, TypeScript, shadcn/ui, Tailwind, Vercel]
+    link: https://shinebluehpl.com
+  - title: Payroll & Attendance
+    desc: "Geofenced attendance, leave, LOP payroll, PDF payslips — Android field app + web admin. In production."
+    tech: [Kotlin, Jetpack Compose, Next.js, Firebase, Cloud Functions]
+
+stack:
+  - label: Web
+    items: [Next.js 15, TypeScript, Tailwind, shadcn/ui, Firebase, Vercel]
+  - label: Android
+    items: [Kotlin, Jetpack Compose, Room, Firebase]
+  - label: Also
+    items: [Claude Code, Inkscape, Brand & logo design]
+
+links:
+  - { label: GitHub,            url: "https://github.com/TaiyoRay" }
+  - { label: shinebluehpl.com,  url: "https://shinebluehpl.com" }
+  - { label: Email,             url: "mailto:nikhilsharmaa733@gmail.com" }
+
+footer_tagline: "Forged · not · templated"
+secret: { left: "XII", right: "IV" }
+
+palette:
+  ink: "#0B0A0C"
+  ink_hi: "#131117"
+  bone: "#EAE4D6"
+  bone_shade: "#B9B19E"
+  red: "#C1272D"
+  etch: "#6E675C"
